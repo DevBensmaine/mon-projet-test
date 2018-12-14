@@ -8,7 +8,7 @@ router.get('/addproduit',(req,res,next) =>
 {
     res.send(`
         <form action="addproduit" method="POST">
-            <input type="text" name="nom" >
+            <input type="text" name="nom" placeholder="rerere" >
             <input type="submit" value="Envoyee">    
         </form>
     `)
